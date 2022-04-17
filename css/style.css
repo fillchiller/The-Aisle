@@ -140,7 +140,7 @@ main .mainSilde{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #aff;
+    /* background-color: #aff; */
 }
 main .mainSilde .Swrap{
     width: 300%;

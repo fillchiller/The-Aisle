@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The aisle - wedding</title>
     <link rel="shortcut icon" href="./images/section-title-img-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/wow.js"></script>
+    <script> new WOW().init(); </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <script>
         $(document).ready(function(){
             $(".conceptMenu").click(function(){
-                $("html, body").animate({scrollTop:$("#concept").offset().top - 0}, 1000)
+                $("html, body").animate({scrollTop:$("#concept").offset().top - 60}, 1000)
                 return false;
             });
             $(".galleryMenu").click(function(){
-                $("html, body").animate({scrollTop:$("#gallery").offset().top - 0}, 1000)
+                $("html, body").animate({scrollTop:$("#gallery").offset().top - 60}, 1000)
                 return false;
             });
-            $(".mainlogo").click(function(){
-                return;
-            });
             $(".reviewMenu").click(function(){
-                $("html, body").animate({scrollTop:$("#review").offset().top - 0}, 1000)
+                $("html, body").animate({scrollTop:$("#review").offset().top - 60}, 1000)
                 return false;
             });
             $(".blogMenu").click(function(){
-                $("html, body").animate({scrollTop:$("#blog").offset().top - 0}, 1000)
+                $("html, body").animate({scrollTop:$("#blog").offset().top - 60}, 1000)
                 return false;
             });
         });
@@ -101,7 +101,7 @@
             <img src="./images/arrow_icon.png" alt="오른쪽 화살표">
         </label>
         
-        <div class="title">
+        <div class="title wow fadeIn" data-wow-duration="2s">
             <h2 class="font_jo">WELCOME TO THE BEST DAY IN OUR LIVES</h2>
             <h1 class="font_gr">Our Wedding!</h1>
         </div>
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="cont_wrap">
-                <div class="cont">
+                <div class="cont wow fadeInUp">
                     <div class="img_part">
                         <img src="./images/h3-icon-1.png" alt="">
                     </div>
@@ -125,7 +125,7 @@
                         <a href="#">+ Detail More</a>
                     </div>
                 </div>
-                <div class="cont">
+                <div class="cont wow fadeInUp" data-wow-delay="0.3s">
                     <div class="img_part">
                         <img src="./images/h3-icon-3.png" alt="">
                     </div>
@@ -138,7 +138,7 @@
                         <a href="#">+ Detail More</a>
                     </div>
                 </div>
-                <div class="cont">
+                <div class="cont wow fadeInUp" data-wow-delay="0.6s">
                     <div class="img_part">
                         <img src="./images/h3-icon-4.png" alt="">
                     </div>
@@ -167,11 +167,11 @@
                 </div>
             </div>
             <div class="imgWrap">
-                <ul>
+                <ul class="wow fadeInUp">
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
                 </ul>
-                <ul>
+                <ul class="wow fadeInUp">
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
@@ -189,7 +189,7 @@
                     </div>
                 </div>
                 <div class="cont">
-                    <div class="box">
+                    <div class="box wow fadeInRight">
                         <div class="img_part"></div>
                         <div class="txt_part">
                             <h4 class="font_gr">Ben Peterson</h4>
@@ -197,7 +197,7 @@
                             <p>Logan is my oldest friend. He is charming, responsible, quirky, God-loving, and heartfelt all in one package. I was introduced to this awesome dude for the first time ever on an impromptu trip to the local…</p>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box wow fadeInLeft">
                         <div class="img_part"></div>
                         <div class="txt_part">
                             <h4 class="font_gr">Jen Wallace</h4>
@@ -221,7 +221,7 @@
                 <div class="box">
                     <p>And now these three remain: faith, hope and love. But the greatest of these is love. How we decided that we should be together forever!</p>
                 </div>
-                <div class="box">
+                <div class="box wow fadeInDown">
                     <div class="img">
                         <div class="white">
                             <h4 class="font_gr">The Proposal</h4>
@@ -231,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box wow fadeInDown" data-wow-delay="0.3s">
                     <div class="img">
                         <div class="white">
                             <h4 class="font_gr">Quick Note About the Gifts</h4>
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box wow fadeInDown" data-wow-delay="0.6s">
                     <div class="img">
                         <div class="white">
                             <h4 class="font_gr">Tips for Out-of-Towners</h4>
